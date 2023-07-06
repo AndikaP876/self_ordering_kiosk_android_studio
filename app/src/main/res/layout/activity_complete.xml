@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2D7314"
+    android:background="#FAEE88"
     tools:context=".complete">
 
     <Button
@@ -32,7 +32,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/roboto_slab_bold"
         android:text="TAKE YOUR RECEIPT TO THE PICK UP COUNTER. YOUR ORDER IS ON ITS WAY"
-        android:textColor="@color/white"
+        android:textColor="#2D7314"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
         android:layout_marginTop="70dp"
         android:fontFamily="@font/roboto_slab_bold"
         android:text="THANK YOU!"
-        android:textColor="@color/white"
+        android:textColor="#2D7314"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -57,10 +57,11 @@
         android:layout_width="221dp"
         android:layout_height="213dp"
         android:layout_marginTop="200dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mcdonalds" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView12"
@@ -69,7 +70,7 @@
         android:layout_marginTop="100dp"
         android:fontFamily="@font/roboto_slab_bold"
         android:text="YOU'RE JUST MOMENTS AWAY FROM DELICIOUSNESS"
-        android:textColor="@color/white"
+        android:textColor="#2D7314"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

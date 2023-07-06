@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu">
+    tools:context=".Menu"
+    android:background="#FAEE88">
 
     <TextView
         android:id="@+id/textView9"
@@ -86,7 +87,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/logo_with_bg" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView3"

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2D7314"
-    tools:context=".SelectPayment">
+    android:background="#FAEE88">
 
     <Button
         android:id="@+id/btn_return"
@@ -55,7 +54,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mcdonalds" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView"
@@ -64,7 +63,7 @@
         android:layout_marginTop="80dp"
         android:fontFamily="@font/roboto_slab_bold"
         android:text="HOW WOULD YOU LIKE TO PAY?"
-        android:textColor="#FFFFFF"
+        android:textColor="#2D7314"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

@@ -138,7 +138,6 @@ public class Menu extends AppCompatActivity {
 
     private void initDataBreakfast(){
         this.listBreakfast =  new ArrayList<>();
-        listBreakfast.add(new Breakfast("Nasi Uduk McD with Coffee", "28000", R.drawable.nasi_uduk_mcd_with_coffee));
         listBreakfast.add(new Breakfast("Korean Soy Garlic Wings", "34500", R.drawable.korean_soy_garlic_wings));
         listBreakfast.add(new Breakfast("Egg Cheese Muffin", "17000", R.drawable.egg_chesse_muffin));
         listBreakfast.add(new Breakfast("Sausage Wrap", "25000", R.drawable.sausage_wrap));

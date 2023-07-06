@@ -88,13 +88,6 @@ public class BreakfastAdapter extends RecyclerView.Adapter<BreakfastAdapter.View
                     intent.putExtra("HARGA_DEFAULT", "28000");
                     holder.itemView.getContext().startActivity(intent);
                 }
-                if (listBreakfast.get(position).getNameBreakfast().equals("Nasi Uduk McD with Coffee")) {
-                    Intent intent = new Intent(holder.itemView.getContext(), detailMenu.class);
-                    intent.putExtra("GAMBAR_DEFAULT", R.drawable.nasi_uduk_mcd_with_coffee);
-                    intent.putExtra("NAMA_DEFAULT", "Nasi Uduk McD with Coffee");
-                    intent.putExtra("HARGA_DEFAULT", "28000");
-                    holder.itemView.getContext().startActivity(intent);
-                }
                 if (listBreakfast.get(position).getNameBreakfast().equals("PaNas 2 with Rice")) {
                     Intent intent = new Intent(holder.itemView.getContext(), detailMenu.class);
                     intent.putExtra("GAMBAR_DEFAULT", R.drawable.panas_2_with_rice);

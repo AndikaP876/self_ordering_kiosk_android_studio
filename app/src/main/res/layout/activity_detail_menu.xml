@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".detailMenu">
+    tools:context=".detailMenu"
+    android:background="#FAEE88">
 
     <TextView
         android:id="@+id/textView5"
@@ -32,7 +33,7 @@
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/logo_with_bg" />
+        app:srcCompat="@drawable/logo" />
 
     <Button
         android:id="@+id/btn_add_order"
